@@ -100,14 +100,17 @@ h1{
 .img-wd { 
     display:flex;
     position: relative; 
-    width: 100%;
-    background-color: rgb(255, 167, 167);
+    width: 50%;
+    background-color: rgb(140, 190, 255);
+    margin:50px;
+    left:10px;
     
 }
 h2 { 
-position: absolute; 
+position: relative; 
+margin:20px;
 top: -20%;
-background-color: rgb(255, 167, 167);
+background-color: rgb(140, 190, 255);
 right: -10px;
 width: 100%; 
 
@@ -117,25 +120,28 @@ width: 100%;
     display:flex;
     position: relative; 
     width: 100%;
+    background-color: rgb(140, 190, 255);
 }
 h2 { 
 position: absolute; 
 top: -20%;
 left: 50px;
 width: 100%; 
+background-color: rgb(140, 190, 255);
 }
 
 .img-bd { 
     display:flex;
     position: relative; 
     width: 100%;
+    background-color: rgb(140, 190, 255);
 }
 h2 { 
 position: absolute; 
 top: -20%;
 left: 50px;
 width: 100%; 
-border:1px solid #000;
+background-color: rgb(140, 190, 255);
 flex-flow: column;
 }
 
@@ -146,7 +152,7 @@ h3 {
     display:flex;
     position: relative;
     border:1px solid #999;
-    background-color: rgb(255, 167, 167);
+    background-color: rgb(140, 190, 255);
     top: 20%;
     width: 100%;
     flex-flow: row nowrap;
