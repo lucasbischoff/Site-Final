@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.container{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    border:1px solid #000;
+    position:fixed;
+    background-color: #fff;
+}
+
+#logo{
+    width: 30vw;
+    margin:0 auto;
+}
+#logo img{
+    width: 90%;
+    
+}
+nav{
+    width: 100vw;
+}
+nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+nav ul li{
+    list-style:none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+section{
+    width: 100vw;
+    min-height: 75vh;
+    border:1px solid #000;
+    
+}
+h1{
+    padding-top:15vh;
+}
+
+#img-sobre{
+    display:flex;
+}
+#img-sobre div{
+    width: 50%;
+    align-self: flex-end;
+    
+}
+
+#img-sobre div img{
+    width: 90%;
+    border:1px solid #999;
+}
+
+@media screen and (min-width:980px){
+    .container{
+        flex-direction:row;
+        justify-content:space-between;
+    }
+    
+    #sobre div{
+        width: 50%;
+    }
+    #logo{
+        width: 150px;
+        margin:0;
+        margin-left:3vw;
+    }
+    nav{
+        width: 50vw;
+    }
+    
+#img-cursos{
+    display:flex;
+}
+#img-cursos div{
+    width: 100%;
+    align-self: flex-end;
+}
+
+#img-cursos div img{
+    width: 30vw;
+    border:1px solid #999;
+}
+
+.img-wd { 
+    display:flex;
+    position: relative; 
+    width: 100%;
+}
+h2 { 
+position: absolute; 
+top: -20%;  
+width: 100%; 
+}
+
+.img-jv { 
+    display:flex;
+    position: relative; 
+    width: 100%;
+}
+h2 { 
+position: absolute; 
+top: -20%;
+left: 50px;
+width: 100%; 
+}
+
+.img-bd { 
+    display:flex;
+    position: relative; 
+    width: 100%;
+}
+h2 { 
+position: absolute; 
+top: -20%;
+left: 50px;
+width: 100%; 
+}
+
+ {
+    display:flex;
+    position: relative;
+    border:1px solid #999;
+    left: 30px;
+    position:top;
+    
+}
+
+h3 {
+    display:flex;
+    position: relative;
+    border:1px solid #999;
+    left: 15%;
+    top: 20%;
+    width: 50%;
+
+}
+
+p {
+    display:flex;
+    position: relative;
+    top: 20%
+
+}
+
+#valores {
+    height: 500px;
+    display: flex;
+    flex-direction:row;
+    flex-flow: row wrap;
+
+}
+
+.item {
+    height: 100px;
+    width: 250px
+    color: black;
+    background: white;
+    margin: 5px;
+    border:2px solid #999;
+}
+
+}
